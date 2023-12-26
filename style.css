@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+html{
+    font-size: 65.2%;
+}
+.logo{
+    height: 1rem;
+    width: 1rem;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.side-bar{
+    width: 25rem;
+    background-color:#121212;
+    color: white;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+.side-nav{
+    background-color: #232323;
+    border-radius: 1rem;
+    /* height: 7rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .8rem 1.2rem;
+    margin: .5rem;
+  
+}
+.side-nav-opt{
+    line-height: 4rem;
+    opacity: .7;
+    
+   
+}
+.side-nav-opt i{
+    font-size: 2rem;
+}
+.side-nav-opt a{
+    font-size: 1.6rem;
+    margin-left: 1.6rem;
+    
+}
+
+.side-nav-opt:hover{
+    opacity: 1;
+
+}
+.side-library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 29rem;
+    margin: .5rem;
+
+}
+.lib-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem;
+}
+.side-library img{
+    height: 2rem;
+    width: 2rem;
+}
+.lift-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+.lift-icon a{
+    margin-left: 1.6rem;
+    font-size: 1.6rem;
+}
+.right-icon{
+    margin-right: 1rem;
+}
+.right-icon i{
+    margin: .7rem;
+
+}
+.side-cards{
+    background-color: #232323;
+    height: 7rem;
+    border-radius: 1rem;
+    margin: .5rem;
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+.side-badge{
+    border: none;
+    padding: .5rem 1.2rem;
+    border-radius: 3rem;
+}
+
+
+
+.main-container{
+    flex: 1;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: .5rem;
+    /* height: 38rem; */
+    overflow: auto;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    
+}
+.top-nav-left img{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+.top-nav-right{
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+}
+.top-badge{
+    border: none;
+    padding: .5rem 1.2rem;
+    border-radius: 3rem;
+    margin: .5rem;
+ 
+}
+.dark-bg{
+    background-color:black;
+    color: white;
+}
+.user{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.main-cards{
+    height:25rem;
+    width: 15rem;
+    margin: 2rem;
+
+}
+.card{
+    background-color: #232323;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.card-img{
+    height: 12rem;
+    width: 12rem;
+}
+.card-h1{
+    color: white;
+    font-weight: 700;
+    margin: 2rem;
+}
+.card-h2{
+    color: white;
+    font-weight: 600;
+    margin: 1rem;
+}
+.card-para{
+    color: white;
+    font-weight: 500;
+    margin: 1rem;
+}
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.music-player{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+
+
+}
+.music-album{
+    width: 25%;
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.album1{
+    height: 4rem;
+    width: 4rem;
+    margin: 4rem;
+}
+.album2{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+
+    
+}
+.album3{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.music-play{
+    width: 50%;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.play-opt img{
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+span{
+    color: white;
+}
+.play-bar input{
+    width: 35rem;
+}
+
+.music-control{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#121212;
+    gap: .5rem;
+    margin-right: .5rem;
+}
+.control img{
+    height: 2rem;
+    width: 2rem;
+    margin: .2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
